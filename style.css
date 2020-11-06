@@ -13,10 +13,20 @@ header {
   padding: 5px;
   text-align: center;
   font-size: 35px;
+  border-style: solid;
+}
+
+dl {
+    border: 2px solid;
+  border-radius: 8px;
 }
 
 #icons {
     text-align: center;
+}
+
+h2#about, h2#historic, h2#projects {
+    border-style: dotted;
 }
 
 h2 {
@@ -28,4 +38,5 @@ footer {
     background-color: #777;
     padding: 10px;
     text-align: center;
+    border-style: solid;
 }
