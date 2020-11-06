@@ -1,0 +1,14 @@
+body {
+    font-family: 'Staatliches', cursive;
+    margin: 70px;
+}
+
+div {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 450px;
+    margin-left: 400px;
+    background-color: lightyellow;
+    border-style: dotted;
+}
