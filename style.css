@@ -9,16 +9,17 @@ body h1 {
 }
 
 header {
-  background-color: #666;
-  padding: 5px;
-  text-align: center;
-  font-size: 35px;
-  border-style: solid;
+    background-color: #666;
+    padding: 5px;
+    text-align: center;
+    font-size: 35px;
+    border-style: solid;
+    border-radius: 8px;
 }
 
 dl {
     border: 2px solid;
-  border-radius: 8px;
+    border-radius: 8px;
 }
 
 #icons {
@@ -26,7 +27,8 @@ dl {
 }
 
 h2#about, h2#historic, h2#projects {
-    border-style: dotted;
+    border-style: double;
+    border-radius: 8px;
 }
 
 h2 {
@@ -39,4 +41,5 @@ footer {
     padding: 10px;
     text-align: center;
     border-style: solid;
+    border-radius: 8px;
 }
