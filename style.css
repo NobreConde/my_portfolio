@@ -2,6 +2,7 @@ body {
     background-color: lightgray;
     font-family: 'Staatliches', cursive;
     margin: 70px;
+    align-items: center;
 }
 
 body h1 {
@@ -17,6 +18,37 @@ header {
     border-radius: 8px;
 }
 
+.line {
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    text-align: center;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 15em;
+    }
+}
+
+  @keyframes blinkCursor {
+    from {
+      border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+      border-right-color: transparent;
+    }
+}
+
+.typing-animation {
+    animation: blinkCursor 500ms steps(40) infinite normal,
+      typing 4s steps(40) 1s normal both;
+}
+
 dl {
     border: 2px solid;
     border-radius: 8px;
@@ -26,12 +58,9 @@ dl {
     text-align: center;
 }
 
-h2#about, h2#historic, h2#projects {
+h2 {
     border-style: double;
     border-radius: 8px;
-}
-
-h2 {
     text-align: center;
     font-style: normal;
 }
